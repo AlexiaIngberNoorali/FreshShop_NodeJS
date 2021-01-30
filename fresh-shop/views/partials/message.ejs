@@ -1,0 +1,29 @@
+<% if(typeof errors!= 'undefined') { %>
+    <%    errors.forEach(function(error){ %>
+    <p> <%= error.msg %></p>
+    <%    })        %>
+    <% } %>
+
+<!-- if (typeof errors != 'undefined') {
+    errors.forEach((error) => {
+        error.msg
+    })
+Where 
++   msg is a key property defined in the handler function
++   error : same
++   typeof : operator returns a string indicating the type of the unevaluated operand.
++   If type of error is not undefined, loop over each error(each if statement) and print its message
+} -->
+
+<!-- msg to be display if registering is successful -->
+<% if(success_msg!= '') { %>
+    <p><%=success_msg %> </p>
+    <% } %>
+
+<!-- msg to be displayed if registerin is not successful -->
+<% if(error_msg != '') { %>
+  <%= error_msg %> 
+<% } %> 
+<% if(error != '') { %>
+  <%= error %>
+<% } %>

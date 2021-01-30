@@ -1,0 +1,35 @@
+{
+  "name": "freshshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexiaIngberNoorali/FreshShop_NodeJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexiaIngberNoorali/FreshShop_NodeJS/issues"
+  },
+  "homepage": "https://github.com/AlexiaIngberNoorali/FreshShop_NodeJS#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-flash": "^0.1.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "hbs": "^4.1.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.11",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "validator": "^13.5.2"
+  }
+}
